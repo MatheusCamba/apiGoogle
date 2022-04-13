@@ -12,8 +12,10 @@
   "dependencies": {
     "axios": "^0.26.1",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
     "express": "^4.17.3"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
