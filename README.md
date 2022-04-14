@@ -24,3 +24,27 @@ A aplicação deve retornar nesse modelo:
 	}
 }
 ```
+
+## Ferramentas utilizadas
+
+* Javascript com NodeJs
+* Express
+
+## Dependências necessárias para uso
+
+```json
+"dependencies": {
+    "axios": "^0.26.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "dotenv": "^16.0.0"
+```
+
+## Exemplo de rota
+
+A no link https://api-google-geolocation.herokuapp.com , podemos usar a rota "/" e especificarmos os endereços como no exemplo abaixo.
+
+```url
+https://api-google-geolocation.herokuapp.com/?address1=Rua+19+de+Fevereiro,+34+Botafogo,+Rio+de+Janeiro+RJ,+22280%E2%80%8B030&address2=Av.+Rio+Branco,+1+Centro,+Rio+de+Janeiro+RJ,+20090%E2%80%8B003&address3=Pra%C3%A7a+Mal.+%C3%82ncora,+122+Centro,+Rio+de+Janeiro+RJ,+20021%E2%80%8B200
+
+```
