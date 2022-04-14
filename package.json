@@ -15,8 +15,6 @@
     "express": "^4.17.3",
     "dotenv": "^16.0.0"
   },
-  "type": "module",
-  "devDependencies": {
-    "dotenv": "^16.0.0"
-  }
+  "type": "module"
+  
 }
